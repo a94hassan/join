@@ -1,46 +1,101 @@
-.main_content_policy{
-    margin-left: 248px; 
-    margin-top: 80px;
+.content_privacy_policy {
+    margin-left: 320px;
+    margin-right: 80px;
+    margin-top: 160px;
+    margin-bottom: 80px;
 }
-h1{
-    padding: 32px;
-    font-size: 40px;
-    font-weight: 700;
+
+.content_privacy_policy ul {
+    margin-top: 0;
 }
-.container_paragraph{
-    padding: 16px;
+
+.content_privacy_policy h1{
+    font-size: 60px;
 }
-.container_back_arrow {
+
+.content_privacy_policy h2{
+    font-size: 20px;
+    margin-bottom: 4px;
+    margin-top: 24px;
+}
+
+.blue_arrow_icon_privacy_policy {
     width: 100%;
-    right: 32px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -80px;
+}
+
+.blue_arrow_icon_privacy_policy img {
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.blue_arrow_icon_privacy_policy img:hover {
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
-.back_arrow{
-    margin-top: 80px;
-    position: absolute;
-    right: 32px;
-
+.margin_paragraph_privacy_policy {
+    margin-top: 0;
 }
-@media (max-width: 900px){
-    .main_content_policy{
+
+.link_privacy_policy {
+    color: #29ABE2;
+    text-decoration: none;
+}
+
+.link_privacy_policy:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.blue_words_privacy_policy {
+    color: #29ABE2;
+}
+
+@media(max-width: 900px) {
+    .content_privacy_policy {
+        margin-left: 80px;
+        margin-bottom: 120px;
+    }
+}
+
+@media(max-width: 600px) {
+    .content_privacy_policy {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .content_privacy_policy h1{
+        font-size: 48px;
+    }
+
+    .blue_arrow_icon_privacy_policy {
+        margin-bottom: -60px;
+    }
+}
+
+@media(max-width: 420px) {
+    .content_privacy_policy {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .blue_arrow_icon_privacy_policy {
+        margin-bottom: -40px;
+    }
+
+    .content_privacy_policy h1{
+        font-size: 36px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .content_privacy_policy h2{
+        font-size: 18px;
         margin: 0;
-        margin-top: 80px;
-        padding: 32px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    h1{
-        margin-top: 42px;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        font-size: 32px;
-    }
-    .back_arrow{
-        margin-top: -8px;
-        right: 8px;
+        margin-top: 16px;
+        margin-bottom: 8px;
     }
 }
